@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 class Net_1(nn.Module):
     def __init__(self):
-        super(Net, self).__init__()
+        super(Net_1, self).__init__()
         # Input Block
         self.convblock1 = nn.Sequential(
             nn.Conv2d(in_channels=1, out_channels=10, kernel_size=(3, 3), padding=0, bias=False),
@@ -72,7 +72,7 @@ class Net_1(nn.Module):
 dropout_value = 0.1
 class Net_2(nn.Module):
     def __init__(self):
-        super(Net, self).__init__()
+        super(Net_2, self).__init__()
         # Input Block
         self.convblock1 = nn.Sequential(
             nn.Conv2d(in_channels=1, out_channels=10, kernel_size=(3, 3), padding=0, bias=False),
@@ -156,7 +156,7 @@ class Net_2(nn.Module):
 dropout_value = 0.025
 class Net_3(nn.Module):
     def __init__(self):
-        super(Net, self).__init__()
+        super(Net_3, self).__init__()
         # Input Block
         self.convblock1 = nn.Sequential(
             nn.Conv2d(in_channels=1, out_channels=10, kernel_size=(3, 3), padding=0, bias=False),

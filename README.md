@@ -11,9 +11,9 @@ Setup a skeletal model (Copied from 3rd example from the class)
 
 Parameters: 10.7k
 
-Best Train Accuracy: 98.56
+Best Train Accuracy: 98.98
 
-Best Test Accuracy: 98.51
+Best Test Accuracy: 98.94
 
 **Analysis:**
 
@@ -31,9 +31,9 @@ Add global average pooling and remove big 7x7 kernel, adjust model parameters to
 
 Parameters: 7k
 
-Best Train Accuracy: 98.57
+Best Train Accuracy: 99.06
 
-Best Test Accuracy: 99.07
+Best Test Accuracy: 99.31
 
 **Analysis:**
 Accuracy has not suffered in spite of reducing parameters with GAP
@@ -52,9 +52,9 @@ Increase model size to be close to 8k
 
 Parameters: 7.9k
 
-Best Train Accuracy: 99.30
+Best Train Accuracy: 99.26
 
-Best Test Accuracy: 99.53
+Best Test Accuracy: 99.49
 
 **Analysis:**
 
